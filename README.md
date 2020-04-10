@@ -8,7 +8,7 @@ Create a command-line application that dynamically generates a README.md from a 
 
 This homework was pretty difficult and frustrating. I was able to prompt the user for responses to a list of questions and display those responses on a readme page, which I think was a large part of the goal of this homework. With a little struggle I was also able to add list and checkbox types to the prompts.
 
-I had trouble getting info from the github API and I am still not sure if my badges work. I'm going to keep working on it over the weekend and hopefully figure it out.
+I had trouble getting info from the github API and I am still not sure if my badges work. I'm going to keep working on it over the weekend and hopefully figure it out. I will update this readme with what I've learned.
 
 ## Instructions
 
