@@ -1,67 +1,105 @@
-# Unit 09: Node.js and ES6+
+# Unit 09 Node.js and ES6+ Homework: Good README Generator
 
-## Overview
-We now arrive at another important milestone in our journey. The JavaScript you wrote for your first project was executed entirely on the client side, though it used third-party server-side APIs. In this and later units, you will learn how to write your own server-side applications to handle requests and ultimately to build your own APIs.
+Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
 
-In a previous era, this would be the point in our full-stack journey where we would begin learning a second programming language, such as PHP, to write server-side code. Luckily for us, Node.js—which was released in 2009—makes this unnecessary. Node.js is an implementation of the V8 JavaScript engine without Chrome, and allows us to write server-side code using JavaScript. We no longer need a browser to run JavaScript. We can (and will) do so from the command line.
+```sh
+node index.js
+```
 
-In this unit, you will learn how to initialize a Node.js project, install third-party dependencies, and create interactive command-line applications. Node.js ships with what is referred to as a standard library. The standard library contains a number of modules that allow us to extend the functionality of Node.js, such as `fs`, which we will use to read and write files. There is also a large and robust ecosystem of third-party modules that you will learn how to add to applications to extend their functionality.
+The user will be prompted for their GitHub username, which will be used to make a call to the GitHub API to retrieve their email and profile image. They will then be prompted with questions about their project.
 
-## Key Topics
+The README will be populated with the following:
 
-* Node.js
-    * process.argv
-    * fs
-* Modularization
-    * require
-    * module.exports
-* npm
-    * package.json
-    * npm init
-    * node_modules
-* Inquirer
-* ES6
-    * let and const
-    * Arrow functions
-    * Template literals
-    * Array methods (map, filter, reduce)
-    * Spread and rest
-    * Destructuring arrays and objects
-* Asynchronous JavaScript
-    * Callbacks
-    * Promises
-    * Async/await
-    * Fetch API
-    * Axios
- 
+* At least one badge
+* Project title
+* Description
+* Table of Contents
+* Installation
+* Usage
+* License
+* Contributing
+* Tests
+* Questions
+  * User GitHub profile picture
+  * User GitHub email
 
-## Comprehension Check
-You will be employer-ready if you can answer the following questions:
-1. What is npm?
-2. What are three of the major changes introduced to JavaScript in ES6?
-3. What are three approaches to handling asynchronous JavaScript?
+Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
 
+```
+AS A developer
 
-## Learning Objectives
-You will be employer-competitive if are able to: 
-* Build interactive command-line applications that process user input.
-* Explain modularization and how it relates to npm and the standard library.
-* Initialize new Node.js projects with npm, and install and import dependencies.
-* Explain the importance and usefulness of ES6+ concepts such as `let`, `const`, and arrow functions.
-* Handle asynchronicity with callbacks, Promises, and async/await.
-* Make server-side API calls with the Fetch API and Axios.
+I WANT a README generator
 
+SO THAT I can easily put together a good README for a new project
+```
 
-## Homework
-Create a command-line application that uses input from a user to dynamically generates a good README for a GitHub project.
+Refer to the [Good README guide](../../01-HTML-Git-CSS/04-Supplemental/Good-README-Guide/README.md).
 
+## Business Context
 
-## Helpful Links
-* [Wikipedia: Node.js](https://en.wikipedia.org/wiki/Node.js)
-* [Wikipedia: V8](https://en.wikipedia.org/wiki/Chrome_V8)
-* [Wikipedia: Server](https://en.wikipedia.org/wiki/Server_(computing))
-* [fs Documentation](https://node.readthedocs.io/en/latest/api/fs/)
-* [InquirerJS](https://www.npmjs.com/package/inquirer/v/0.2.3)
+When preparing a report for stakeholders, it is important to have up-to-date information about members of the development team. Rather than navigating to each team member's GitHub profile, a command-line application will allow for quick and easy generation of profiles in PDF format.
+
+## Minimum Requirements
+
+* Functional, deployed application.
+
+* GitHub repository with a unique name and a README describing project.
+
+* The generated README includes a bio image from the user's GitHub profile.
+
+* The generated README includes the user's email.
+
+* The generated README includes the following sections: 
+  * Title
+  * Description
+  * Table of Contents
+  * Installation
+  * Usage
+  * License
+  * Contributing
+  * Tests
+  * Questions
+
+* The generated README includes 1 badge that's specific to the repository.
+
+```
+GIVEN the developer has a GitHub profile and a repository
+
+WHEN prompted for the developer's GitHub username and repo specific information
+
+THEN a README for the repo is generated
+```
+- - -
+
+## Commit Early and Often
+
+One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+
+* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+
+* Your commit history allows you to revert your code base in the event that you need to return to a previous state.
+
+Follow these guidelines for committing:
+
+* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+
+* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+
+* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+
+* Test your application before you commit to ensure functionality at every step in the development process.
+
+We would like you to have more than 200 commits by graduation, so commit early and often!
+
+## Submission on BCS
+
+You are required to submit the following:
+
+* An animated GIF demonstrating the app functionality
+
+* A generated PDF of your GitHub profile
+
+* The URL of the GitHub repository
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
