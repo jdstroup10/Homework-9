@@ -23,6 +23,11 @@ inquirer.prompt( [{
   },
   {
     type: "input",
+    name: "repo",
+    message: "Please enter the repo name of your project"
+  },
+  {
+    type: "input",
     name: "title",
     message: "Please enter a title for your new project"
   },
@@ -76,15 +81,16 @@ inquirer.prompt( [{
     message: "Choose some options to build your table of contents",
     name: "contents",
     choices: [
-      "Title",
-      "Username",
       "Description",
+      "Collaborators",
+      "Licensing",
       "Installation",
       "Testing",
-      "Licensing",
       "Q&A",
     ]
   }
+
+  
   
   
   
@@ -92,7 +98,8 @@ inquirer.prompt( [{
   
   
 ]).then(function(data) {
-
+   const tableContents = (data.contents)
+   const tableContentsList = tableContents.join("\n");
     var filename = "readMeOutput.md"
     var md = `
     
@@ -100,6 +107,8 @@ inquirer.prompt( [{
       
 
       #${data.title}
+
+      ##${data.repo}
 
       ![Screenshot of the Project](photo link)
   
@@ -111,7 +120,7 @@ inquirer.prompt( [{
       Team members: ${data.contribute}
 
       ##Table of Contents
-      ${data.contents}
+      ${tableContentsList}
 
       ##Installation
       This project was installed using the following method: ${data.install}

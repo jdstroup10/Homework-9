@@ -3,33 +3,40 @@
   
       
 
-      #TITLE
+      #Readme Generator
+
+      ##Homework-9
 
       ![Screenshot of the Project](photo link)
   
-      ##Description:  [![Build Status](https://img.shields.io/badge/project-finished-blue)]
-      asd
+      ##Description:  [![Build Status](https://img.shields.io/badge/project-ongoing-green)]
+      Homework 9 for UT coding Bootcamp
   
       ##Collaborators
       Team lead: jdstroup10
-      Team members: asdasdasd
+      Team members: Jason 
 
       ##Table of Contents
-      Title,Description,Testing,Q&A
+      Description
+Collaborators
+Licensing
+Installation
+Testing
+Q&A
 
       ##Installation
-      This project was installed using the following method: adsASD
+      This project was installed using the following method: Github
 
       ##Testing
-      This project was testing using the following methods: SADASDA
+      This project was testing using the following methods: Trial and Error
 
       ##Common Q&A's
-      Questions: DASDASD
+      Questions: How does this generator work?
 
-      Answers: ASDASDA
+      Answers: Run the command 'node index.js' and answer the prompts
 
       ##Licensing
-      asd
+      None
 
 
       Auto-generated readme file courtesy of jdstroup10
