@@ -1,33 +1,35 @@
 
     
   
+      
+
       #TITLE
 
-      BIG CAT FINDER
+      ![Screenshot of the Project](photo link)
   
-      ##Description:
-      PROJECT THAT HELPS U FIND BIG CATS
+      ##Description:  [![Build Status](https://img.shields.io/badge/project-finished-blue)]
+      asd
   
       ##Collaborators
       Team lead: jdstroup10
-      Team members: ME + SOME OTHERS
+      Team members: asdasdasd
 
       ##Table of Contents
-      NO TABLE OF CONTENTS
+      Title,Description,Testing,Q&A
 
       ##Installation
-      This project was installed using the following method: GITHUB
+      This project was installed using the following method: adsASD
 
       ##Testing
-      This project was testing using the following methods: MANUALLY
+      This project was testing using the following methods: SADASDA
 
       ##Common Q&A's
-      Questions: NOPE
+      Questions: DASDASD
 
-      Answers: NO ANSWERS
+      Answers: ASDASDA
 
       ##Licensing
-      NONE
+      asd
 
 
       Auto-generated readme file courtesy of jdstroup10

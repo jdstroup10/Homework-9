@@ -37,6 +37,16 @@ inquirer.prompt( [{
     message: "Who is contributing to this project?"
   },
   {
+    type: "list",
+    name: "badge",
+    message: "Choose a badge to indicate your project status. Choose option 1 for ongoing, option 2 for paused, or option 3 for finished",
+    choices: [
+      "https://img.shields.io/badge/project-ongoing-green",
+      "https://img.shields.io/badge/project-paused-yellow",
+      "https://img.shields.io/badge/project-finished-blue"
+    ]
+  },
+  {
     type: "input",
     name: "license",
     message: "What is the license on this project?"
@@ -45,11 +55,6 @@ inquirer.prompt( [{
     type: "input",
     name: "install",
     message: "How would you like to install this project?"
-  },
-  {
-    type: "input",
-    name: "contents",
-    message: "Enter your table of contents here:"
   },
   {
     type: "input",
@@ -66,6 +71,21 @@ inquirer.prompt( [{
     name: "answers",
     message: "Write your answer to the common questions here."
   },
+  {
+    type: "checkbox",
+    message: "Choose some options to build your table of contents",
+    name: "contents",
+    choices: [
+      "Title",
+      "Username",
+      "Description",
+      "Installation",
+      "Testing",
+      "Licensing",
+      "Q&A",
+    ]
+  }
+  
   
   
 
@@ -77,11 +97,13 @@ inquirer.prompt( [{
     var md = `
     
   
-      #TITLE
+      
 
-      ${data.title}
+      #${data.title}
+
+      ![Screenshot of the Project](photo link)
   
-      ##Description:
+      ##Description:  [![Build Status](${data.badge})]
       ${data.description}
   
       ##Collaborators
