@@ -106,34 +106,34 @@ inquirer.prompt( [{
   
       
 
-      #${data.title}
+      # ${data.title}
 
-      ##${data.repo}
+      ## ${data.repo}
 
       ![Screenshot of the Project](photo link)
   
-      ##Description:  [![Build Status](${data.badge})]
+      ## Description:  [![Build Status](${data.badge})]
       ${data.description}
   
-      ##Collaborators
+      ## Collaborators
       Team lead: ${data.username}
       Team members: ${data.contribute}
 
-      ##Table of Contents
+      ## Table of Contents
       ${tableContentsList}
 
-      ##Installation
+      ## Installation
       This project was installed using the following method: ${data.install}
 
-      ##Testing
+      ## Testing
       This project was testing using the following methods: ${data.test}
 
-      ##Common Q&A's
+      ## Common Q&A's
       Questions: ${data.questions}
 
       Answers: ${data.answers}
 
-      ##Licensing
+      ## Licensing
       ${data.license}
 
 
@@ -146,7 +146,7 @@ inquirer.prompt( [{
         return console.log(err);
       }
   
-      console.log("Success!");
+      console.log("Your README document has been successfuly created!");
   
     });
   });

@@ -3,20 +3,20 @@
   
       
 
-      #Readme Generator
+      # Big Cat Finder
 
-      ##Homework-9
+      ## project-1
 
       ![Screenshot of the Project](photo link)
   
-      ##Description:  [![Build Status](https://img.shields.io/badge/project-ongoing-green)]
-      Homework 9 for UT coding Bootcamp
+      ## Description:  [![Build Status](https://img.shields.io/badge/project-finished-blue)]
+      An app you can use to find big cats near you
   
-      ##Collaborators
+      ## Collaborators
       Team lead: jdstroup10
-      Team members: Jason 
+      Team members: Jason, Jogre, Robert, Jumi
 
-      ##Table of Contents
+      ## Table of Contents
       Description
 Collaborators
 Licensing
@@ -24,18 +24,18 @@ Installation
 Testing
 Q&A
 
-      ##Installation
-      This project was installed using the following method: Github
+      ## Installation
+      This project was installed using the following method: ???
 
-      ##Testing
-      This project was testing using the following methods: Trial and Error
+      ## Testing
+      This project was testing using the following methods: Trial and error
 
-      ##Common Q&A's
-      Questions: How does this generator work?
+      ## Common Q&A's
+      Questions: Where can I find this project?
 
-      Answers: Run the command 'node index.js' and answer the prompts
+      Answers: In our github repo
 
-      ##Licensing
+      ## Licensing
       None
 
 
