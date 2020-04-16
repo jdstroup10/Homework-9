@@ -1,10 +1,16 @@
 # Unit 09 Node.js and ES6+ Homework: Good README Generator
+Github Repo for Homework 9 of UT coding BootCamp
 
+## Goal
 Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
 
-```sh
-node index.js
-```
+## Notes
+
+This homework was pretty difficult and frustrating. I was able to prompt the user for responses to a list of questions and display those responses on a readme page, which I think was a large part of the goal of this homework. With a little struggle I was also able to add list and checkbox types to the prompts.
+
+I had trouble getting info from the github API and I am still not sure if my badges work. I'm going to keep working on it over the weekend and hopefully figure it out. I will update this readme with what I've learned.
+
+## Instructions
 
 The user will be prompted for their GitHub username, which will be used to make a call to the GitHub API to retrieve their email and profile image. They will then be prompted with questions about their project.
 
